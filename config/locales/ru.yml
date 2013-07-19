@@ -1,0 +1,22 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ru:
+  activerecord:
+    attributes:
+      user:
+        email: Емайл
+        password: Пароль
+        password_confirmation: Подтверждение пароля
+  application_will_be_able: 'Это приложение запрашивает разрешение на:'
+  authorize_use_account: Разрешить приложению "%{app_name}" использовать вашу учетную запись?
+  authorize: Разрешить
+  deny: Отказать
+  or: или
+  sign_in: Вход
+  sign_up: Регистрация
+  sign_up_and_log_in: Регистрация и вход
+  doorkeeper:
+    scopes:
+      public: Доступ к публичным данным
+      write: Обновление вашей информации
