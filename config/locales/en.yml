@@ -2,7 +2,15 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    attributes:
+      user:
+        email: Email
+        password: Password
+        password_confirmation: Password confirmation
+  sign_in: Sign in
+  sign_up: Sign up
+  sign_up_and_log_in: Sign up and log in
   doorkeeper:
     scopes:
       public: Access your public data

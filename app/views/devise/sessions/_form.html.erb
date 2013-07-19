@@ -14,6 +14,7 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Sign in", :class => "btn btn-primary" %><small> or <%=link_to "Sign Up", users_sign_up_path %></small>
+    <%= f.submit t(:sign_in), :class => "btn btn-primary" %>
+    <small> or <%=link_to t(:sign_up), users_sign_up_path %></small>
   </div>
 <% end %>
