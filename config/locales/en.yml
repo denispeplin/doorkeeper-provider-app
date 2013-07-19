@@ -8,6 +8,11 @@ en:
         email: Email
         password: Password
         password_confirmation: Password confirmation
+  application_will_be_able: 'This application will be able to:'
+  authorize_use_account: Authorize %{app_name} to use your account?
+  authorize: Authorize
+  deny: Deny
+  or: or
   sign_in: Sign in
   sign_up: Sign up
   sign_up_and_log_in: Sign up and log in
