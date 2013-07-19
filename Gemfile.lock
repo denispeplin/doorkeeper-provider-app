@@ -32,7 +32,6 @@ GEM
     arel (2.2.3)
     bcrypt-ruby (3.0.1)
     builder (3.0.4)
-    coderay (0.9.8)
     coffee-rails (3.1.1)
       coffee-script (>= 2.2.0)
       railties (~> 3.1.0)
@@ -94,7 +93,6 @@ GEM
     rake (10.0.3)
     rdoc (3.12)
       json (~> 1.4)
-    redcarpet (2.0.0b5)
     rspec (2.8.0)
       rspec-core (~> 2.8.0)
       rspec-expectations (~> 2.8.0)
@@ -135,7 +133,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coderay (~> 0.9.8)
   coffee-rails (~> 3.1.1)
   devise
   doorkeeper (= 0.5.0.rc1)
@@ -143,7 +140,6 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.1.10)
-  redcarpet (= 2.0.0b5)
   rspec-rails (~> 2.8.1)
   sass-rails (~> 3.1.4)
   sqlite3

@@ -6,9 +6,6 @@ gem 'devise'
 gem 'doorkeeper', '0.5.0.rc1'
 gem 'faker'
 
-gem 'coderay', '~> 0.9.8'
-gem 'redcarpet', '2.0.0b5'
-
 gem 'pg', :group => :production
 
 group :assets do
