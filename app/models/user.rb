@@ -5,9 +5,11 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :rememberable, :validatable
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :name
+
+  validates :name, :email, presence: true, uniqueness: true
 
   def self.blacklist_keys
-    @blacklist_keys ||= super - ["id"]
+    @blacklist_keys ||= super - ["id", "name"]
   end
 end
